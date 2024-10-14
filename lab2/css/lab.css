@@ -1,11 +1,11 @@
-h1 {
+h1{
   color: rgb(16, 64, 97);
   font-size: 300%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style:oblique
+  font-style: oblique;
 }
 
-p {
+p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100%;
   text-indent: 20px;
@@ -14,18 +14,16 @@ p {
   margin-inline-end: 16px;
 }
 
-#content {
-    background-color: #92c4efcf;
-    width: 1420px;
-    min-height:300px;
-    padding: 20x;
-    margin-bottom: 10px;
-    border: solid 1px #ffffff;
-  }
+#content{
+  background-color: #92c4efcf;
+  width: 1420px;
+  min-height:300px;
+  padding: 20x;
+  margin-bottom: 10px;
+  border: solid 1px #ffffff;
+}
 
-  body{
-    background-color: #023254e6;
-    border-style: dashed;
-  }
-
-  
+body{
+  background-color: #023254e6;
+  border-style: dashed;
+}

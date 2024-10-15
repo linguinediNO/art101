@@ -29,24 +29,6 @@ body {
     100%{background-position:0% 35%}
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-}
-
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;

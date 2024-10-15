@@ -4,7 +4,29 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #50808E;
+  background: linear-gradient(97deg, #3c99f0, #1f3e5c, #4cb6a3, #7850ce, #c850ce);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: Homepage 50s ease infinite;
+  -moz-animation: Homepage 50s ease infinite;
+  animation: Homepage 50s ease infinite;
+
+}
+
+@-webkit-keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@-moz-keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -23,14 +45,10 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
 }

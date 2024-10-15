@@ -1,9 +1,25 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+h1{
+  color: rgb(139, 18, 86);
+  font-size: 300%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique; 
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
+p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  text-indent: 20px;
+  margin-left: 10px;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px;
+}
+
+  #content{
+    background-color: #620b68cf;
+    width: 1420px;
+    min-height:300px;
+    padding: 20x;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
   }
+
+

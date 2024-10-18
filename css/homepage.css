@@ -14,3 +14,29 @@ h1{
 p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+body {
+  background: linear-gradient(97deg, #3c99f0, #1f3e5c, #4cb6a3, #7850ce, #c850ce);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: Homepage 50s ease infinite;
+  -moz-animation: Homepage 50s ease infinite;
+  animation: Homepage 50s ease infinite;
+
+}
+
+@-webkit-keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@-moz-keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@keyframes Homepage {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}

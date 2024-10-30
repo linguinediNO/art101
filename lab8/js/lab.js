@@ -34,7 +34,7 @@ console.log("Squareroot of array:", result);
 
  // Use jQuery to select the element by its ID and set the HTML content
  $("#output").html(mapResults);
-
+ 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
   // some code here

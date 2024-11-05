@@ -3,17 +3,18 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
   font-family: monospace;
+  background-color: rgb(244, 239, 120);
 }
-  .special {
-    background-color: darkorchid;
-    border: dotted 50px red;
-    color: pink;
-    font-weight: bold;
-  }
+.special {
+  background-color: rgb(129, 197, 233);
+  border: dotted 6px rgb(94, 211, 141);
+  color: rgb(150, 128, 248);
+  font-weight: bold;
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
 
-  .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-
-  
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+}
